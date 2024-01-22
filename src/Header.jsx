@@ -14,7 +14,7 @@ export default function Header() {
 
 
     return (
-        <header className="h-28 flex items-center justify-between  gap-2 px-1 sm:px-1 lg:px-10 rounded-b-badge shadow-xl" style={{backgroundColor: isDark ? '#1a202c' : 'white', transition: 'background-color 0.5s ease'}}> 
+        <header className="font h-28 flex items-center justify-between  gap-2 px-1 sm:px-1 lg:px-10 rounded-b-badge shadow-xl" style={{backgroundColor: isDark ? '#1a202c' : 'white', transition: 'background-color 0.5s ease'}}> 
         <div className='flex justify-center gap-2 items-center select-none'>
 
             <img src={logo} alt='logo' className='h-14 sm:h-14 md:h-24 lg:h-28 animate-fade animate-delay-300'/>
