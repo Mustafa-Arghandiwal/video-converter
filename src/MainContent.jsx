@@ -34,7 +34,7 @@ export default function Main(props) {
     }, []);
     return (
         <section className="font-spaceMono h-screen  flex flex-col items-center gap-14 " style={{backgroundColor: props.isDark ? '#1a202c' : '#f8fafc', transition: 'background-color 0.7s ease'}}>
-            <h1 className="mt-32 text-6xl font-bold cursor-default  tracking-tight border select-none
+            <h1 className="mt-32 text-6xl font-bold cursor-default  tracking-tight  select-none
             text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-pink-800
             " >
                 {title }
